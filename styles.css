@@ -7,6 +7,11 @@ body {
     text-align: center; */
     width: auto;
     margin: auto;
+    align-self: center;
+}
+
+a:hover {
+    background-color: #BED0E4;
 }
 
 ul {
@@ -16,10 +21,13 @@ ul {
 }
 
 li {
-    /* display: inline; */
+    display: inline;
     text-align: center;
-    float:inline-endleft;
     background-color: #EFF4FA;
+}
+
+form {
+    display: inline;
 }
 
 a {
@@ -29,4 +37,16 @@ a {
     font-family: verdana;
     text-decoration: none;
     /* display: flex; */
+}
+
+.nav-link {
+    background-color: transparent;
+    width: auto;
+    margin: auto;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
 }
