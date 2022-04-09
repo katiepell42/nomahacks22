@@ -1,5 +1,32 @@
 body {
-    background-color: #BED0E4
+    background-color: #BED0E4;
+}
+
+#full-header {
+    display: flex;
+    width: 100%;
+}
+
+img {
+    min-height: 10%;
+    min-width: 10%;
+}
+
+#header {
+    width: 100%;
+}
+
+
+#header-logo {
+    width: 10%;
+    height: 10%;
+    min-height: 10%;
+    min-width: 10%;
+}
+
+#header-welcome {
+    height: 10%;
+    width: auto;
 }
 
 
@@ -7,11 +34,16 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    /* height: 100%;
+    width: 100%; */
+    float: left;
+    min-height: 10%;
+    min-width: 10%;
 }
 
-form {
-    width: 50%;
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0466C8;
 }
 
 #top-nav-bar {
@@ -21,6 +53,7 @@ form {
 }
 
 .nav-link {
+    font-size: bigger;
     width: 100%;
 }
 
@@ -62,5 +95,5 @@ button {
     font-family: 'Courier New', Courier, monospace;
     color: #0466C8;
     font-weight: bold;
-    font-size: bigger;
+    font-size: 20px;
 }
