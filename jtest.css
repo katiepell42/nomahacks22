@@ -1,0 +1,44 @@
+/* CSSTerm.com Horizontal Easy DropDown CSS menu */
+
+.top-nav-list {
+	background:#005555;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	height:40px;
+	/* background-image:url('bg.jpg'); */
+}
+
+.top-nav-list ul { /* Formats list of top-level links in top nav bar */
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+
+.top-nav-list li { float:left; } /* All top-level elements left*/
+.top-nav-list li:hover { position:relative; background:#75809a;} /* All top-level elements hover behavior */
+.top-nav-list li a { /* All top-level elements w/ direct links (no dropdown)*/
+	padding:12px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font:12px arial, verdana, sans-serif;
+	border-right:1px solid #75809a;
+}
+
+.top-nav-list li:hover ul { /* All top-level list elements that contain a drop-down list -> hovering behavior */
+	left:0px;
+	top:38px;
+	background:#75809a;
+	padding:0px;
+}
+
+.top-nav-list li:hover ul li a { /* All links that are in drop-down lists */
+	padding:10px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+	background-color:#75809a;
+}
+.top-nav-list li:hover ul li a:hover { background:#005555;  }
