@@ -1,85 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <div id="full-header">
-    <div id="header">
-        <div id="header-logo">
-            <img id="logo" src="./assets/csc_logo_circle_transparent.png" alt="The Computer Science Club logo">
-        </div>
-        <div id="header-welcome">
-            <h1 id="welcome"> Computer Science Club <br> Sonoma State University</h1>
-        </div>
-    </div>
-    <div id="top-nav-bar">
-        <nav>
-             <ul>
-                <li class="nav-link"> 
-                    <form action="./index.html">
-                        <button type="submit">Home</button>
-                    </form>
-                </li>
-                <li class="nav-link"> 
-                    <form action="./index.html">
-                        <button type="submit">About</button>
-                    </form>
-                </li>
-                <li class="nav-link"> 
-                    <form action="./people.html">
-                        <button type="submit">People</button>
-                    </form>
-                </li>
-                <li class="nav-link"> 
-                    <form action="./index.html">
-                        <button type="submit">Calendar</button>
-                    </form>
-                </li>
-                <li class="nav-link"> 
-                    <form action="./index.html">
-                        <button type="submit">Resources</button>
-                    </form>
-                </li>
-                <li class="nav-link"> 
-                    <form action="./index.html">
-                        <button type="submit">Contact us</button>
-                    </form>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</div>
-
- Navigation menu
-    Main content for main page
-footer with navigation links
-logo
-title
-popup with discord join info-->
-
-
-
-<!--
-    email links
-    pictures of the people
-    text box for each name (big)
-    position text (big)
-    bio text (paragraph style)
-    name of room that it's in
-    sonoma state address
-    names of advisors (gondree)
-    resumes?
--->
-    
-<!-- </body>
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,22 +8,38 @@ popup with discord join info-->
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div id="header">
-        <img id="logo" src="./assets/csc_logo_circle_transparent.png" alt="The Computer Science Club logo">
-    </div>
+    <!-- <div id="header">
+        <img id="logo" src="./assets/csc_logo_square.jpg" alt="The Computer Science Club logo">
+    </div> -->
+
     <br>
+
     <div id="top-nav-bar">
         <nav>
-             <ul>
+            <img id="logo" src="./assets/csc_logo_circle_transparent.png" alt="The Computer Science Club logo">
+            <div id="top-nav-list-div">
+             <ul id="top-nav-list">
                 <li class="nav-link"> 
                     <form action="./index.html">
                         <button type="submit">Home</button>
                     </form>
                 </li>
-                <li class="nav-link"> 
+                <li class="nav-link-dropdown"> 
                     <form action="./index.html">
                         <button type="submit">About</button>
                     </form>
+
+                    <ul id="about-nav-list">
+                        <li class="nav-link"> 
+                            <form action="./index.html">
+                                <button type="submit">About CS Club</button>
+                            </form>
+                        </li>
+                        <li class="nav-link"> 
+                            <form action="./index.html">
+                                <button type="submit">About the Officers</button>
+                            </form>
+                    </ul>
                 </li>
                 <li class="nav-link"> 
                     <form action="./people.html">
@@ -113,7 +47,7 @@ popup with discord join info-->
                     </form>
                 </li>
                 <li class="nav-link"> 
-                    <form action="./index.html">
+                    <form action="./calendar.html">
                         <button type="submit">Calendar</button>
                     </form>
                 </li>
@@ -127,31 +61,56 @@ popup with discord join info-->
                         <button type="submit">Contact us</button>
                     </form>
                 </li>
-            </ul>
+                <li id="menu-button"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
+             </ul>
+            </div>
         </nav>
     </div>
 
 
-    <!-- Navigation menu
-    Main content for main page
-footer with navigation links
-logo
-title
-popup with discord join info-->
 
 
 
-<!--
-    email links
-    pictures of the people
-    text box for each name (big)
-    position text (big)
-    bio text (paragraph style)
-    name of room that it's in
-    sonoma state address
-    names of advisors (gondree)
-    resumes?
--->
+    <input type="checkbox" id="checkbox_choice" />
+    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+    <!-- <div id="about">
+        <div id="title">
+            <h1>About CS Club</h1>
+        </div>
+        <p id="about-facts">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tempor diam. Fusce egestas maximus accumsan. Aenean eleifend, nisi in viverra efficitur, nulla erat ultricies ante, quis aliquet leo ipsum a turpis. Etiam aliquam libero at enim volutpat molestie. Proin sit amet sollicitudin sem, quis feugiat metus. Nunc et libero ex. Morbi vel rutrum diam. Duis nisl magna, tincidunt sagittis lectus eget, ullamcorper blandit eros. Etiam quis diam interdum, elementum nunc eu, ornare mi. Nulla tempor vehicula velit, quis facilisis enim auctor non.
+Ut in mauris risus. Nunc ac auctor dolor, eu dapibus nunc. Integer viverra egestas purus in blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eget odio eu arcu ullamcorper cursus. Phasellus cursus rutrum fermentum. Suspendisse ullamcorper libero urna, eu euismod libero scelerisque a. Sed cursus faucibus erat ut feugiat. Quisque pulvinar lacus at porta tempor. Morbi nec ultricies arcu.
+
+
+        </p>
+    </div> -->
+
+
+<div id="footer">
+    <nav id="foot-nav-bar">
+        <ul>
+            <!-- <li>
+               <img id="instagram-logo" src="./assets/insta-white-2.png" alt="White Instagram logo with link">
+            </li> -->
+           <!-- <li class="foot-nav-link"> 
+               <form action="https://www.instagram.com/csclubssu">
+                   <button type="submit"><img id="instagram-logo" class="logo-icon"src="./assets/insta-white-2.png" alt="White Instagram logo with link"></button>
+               </form>
+           </li> -->
+           <li class="foot-nav-link"> 
+               <form action="./index.html">
+                   <button type="submit"><img id="discord-logo" class="logo-icon"src="./assets/discord-white-2.svg" alt="White Discord logo with link"></button>
+               </form>
+           </li>
+           <!-- <li class="foot-nav-link"> 
+               <form action="./people.html">
+                   <button type="submit">People</button>
+               </form>
+           </li> -->
+       </ul>
+    </nav>
+</div>
     
 </body>
 </html>
