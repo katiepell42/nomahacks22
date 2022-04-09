@@ -1,0 +1,52 @@
+body {
+    background-color: #BED0E4
+}
+
+#top-nav-bar {
+    /* display: flex;
+    text-align: center; */
+    width: auto;
+    margin: auto;
+    align-self: center;
+}
+
+a:hover {
+    background-color: #BED0E4;
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    background-color: #EFF4FA;
+}
+
+form {
+    display: inline;
+}
+
+a {
+    /* display: block; */
+    padding: 8px;
+    color: #0A345C;
+    font-family: verdana;
+    text-decoration: none;
+    /* display: flex; */
+}
+
+.nav-link {
+    background-color: transparent;
+    width: auto;
+    margin: auto;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
