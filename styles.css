@@ -2,11 +2,18 @@ body {
     background-color: #e9f3ff;
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: auto;
 }
 
-#header {
+/* #header {
     width: 100%;
-    /* position: relative; */
+    /* position: relative; 
+}
+*/
+
+table, tr, td {
+    border: 1px, solid;
 }
 
 #logo {
@@ -14,13 +21,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     float: left;
-    /* min-height: 10%;
-    min-width: 10%; */
-    height: 100px;
-    width: 100px;
+
+    height: auto;
+    width: 85px;
 }
 
 h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0466C8;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+h2 {
     font-family: 'Courier New', Courier, monospace;
     color: #0466C8;
 }
@@ -33,9 +46,17 @@ nav {
 }
 
 #top-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #0A345C;
+    color: #e9f3ff;
     width: 100%;
     margin: auto;
     align-self: center;
+    position: absolute;
+    top: 0;
 }
 
 .nav-link {
@@ -61,7 +82,69 @@ ul {
     align-items: center;
     align-self: center;
     width: 50%;
+    height: 50px;
+}
 
+/* #top-nav-list {
+    list-style-type: none; /* Removes bullet points
+    /margin: auto;
+    padding: 0;
+    align-items: center;
+    align-self: center;
+    width: 60%;
+    height: 50px;
+} */
+
+#top-nav-list {
+    background-color: #e9f3ff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* remove bullets from list */
+    height: 40px;
+}
+
+#top-nav-list li {
+    float: left;
+}
+
+#top-nav-list li form {
+    padding: 12px 20px;
+    display: block;
+    color: #e9f3ff;
+    text-decoration: none;
+    font: 12px arial, verdana, sans-serif;
+    border-right: 1px solid #0466C8;
+}
+
+#top-nav-list ul {
+    position: absolute;
+    left:-9999px;
+    top:-9999px;
+    list-style-type: none;
+}
+
+#top-nav-list li:hover {
+    position:relative;
+    background: #e9f3ff;
+}
+
+#top-nav-list li:hover ul {
+    left: 0px;
+    top: 38px;
+    background: #e9f3ff;
+    padding: 0;
+}
+
+#top-nav-list li:hover ul li form {
+    padding: 10px;
+    display: block;
+    width: 168px;
+    text-indent: 15px;
+    background-color: #e9f3ff
+}
+
+#top-nav-list li:hover ul li form:hover {
+    background-color: #0466C8;
 }
 
 button {
@@ -73,6 +156,32 @@ button {
     font-size: 20px;
     size: auto;
 }
+
+#top-nav-list-div {
+    display: flex;
+    gap: 1em;
+}
+
+#top-nav-list-div:hover {
+    /* background-color: #0466C8; */
+    color: #0A345C;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.nav-link-dropdown {
+    position: relative;
+}
+
+#about-nav-list {
+    background-color: #0466C8;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.nav-link-dropdown 
 
 #footer {
     background-color: #0A345C;
@@ -92,9 +201,8 @@ form {
     width: auto;
     margin: auto;
     text-align: center;
-    
+    /* display: inline; */
 }
-
 
 #instagram-logo {
     height: 20px;
@@ -117,4 +225,22 @@ form {
     display: flex;
     align-items: center;
     overflow: auto;
+}
+
+
+#officers, #header, #about, #about-facts{
+    display: block;
+}
+
+#about {
+    background-color: #0A3456;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+button:hover {
+    background-color: #e9f3ff;
+    color: #0A345C;
 }
