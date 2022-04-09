@@ -2,12 +2,25 @@ body {
     background-color: #BED0E4
 }
 
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
 #top-nav-bar {
     /* display: flex;
     text-align: center; */
     width: auto;
     margin: auto;
     align-self: center;
+}
+
+div {
+    justify-content: center;
+    display: flex;
 }
 
 a:hover {
@@ -23,21 +36,13 @@ ul {
 li {
     display: inline;
     text-align: center;
-    background-color: #EFF4FA;
+    background-color: transparent;
 }
 
 form {
     display: inline;
 }
 
-a {
-    /* display: block; */
-    padding: 8px;
-    color: #0A345C;
-    font-family: verdana;
-    text-decoration: none;
-    /* display: flex; */
-}
 
 .nav-link {
     background-color: transparent;
@@ -49,4 +54,6 @@ button {
     background-color: transparent;
     border: none;
     font-family: 'Courier New', Courier, monospace;
+    color: #0466C8;
+    font-weight: bold;
 }
