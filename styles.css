@@ -10,12 +10,18 @@ body {
     width: 10%;
 }
 
+form {
+    width: 50%;
+}
+
 #top-nav-bar {
-    /* display: flex;
-    text-align: center; */
-    width: auto;
+    width: 100%;
     margin: auto;
     align-self: center;
+}
+
+.nav-link {
+    width: 100%;
 }
 
 div {
@@ -56,4 +62,5 @@ button {
     font-family: 'Courier New', Courier, monospace;
     color: #0466C8;
     font-weight: bold;
+    font-size: bigger;
 }
