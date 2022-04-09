@@ -1,10 +1,4 @@
-
 /* CSSTerm.com Horizontal Easy DropDown CSS menu */
-
-body {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
-}
 
 .top-nav-bar-list {
 	background:#0A345C;
@@ -14,20 +8,13 @@ body {
 	height:40px;
 }
 .top-nav-bar-list li { float:left; }
-
 .top-nav-bar-list li a {
 	padding:12px 20px;
 	display:block;
 	color:#e9f3ff;
 	text-decoration:none;
+	/* font:12px arial, verdana, sans-serif; */
 	border: none;
-}
-.top-nav-bar-list li:hover {
-	position:relative;
-    background: #467FB6;
-    color: green;
-	/* background:#e9f3ff; 
-    color: black; */
 }
 
 /* Submenu */
@@ -38,11 +25,15 @@ body {
 	list-style-type:none;
 	background: #0A345C;
 }
-
+.top-nav-bar-list li:hover {
+	position:relative;
+	/* background:#e9f3ff; */
+	/* color: black; */
+}
 .top-nav-bar-list li:hover ul {
 	left:0px;
 	top:38px;
-	background:#0A345C;
+	background:#e9f3ff;
 	padding:0px;
 }
 
@@ -51,8 +42,6 @@ body {
 	display:block;
 	width:168px;
 	text-indent:15px;
-	background-color:#0A345C;
+	background-color:#e9f3ff;
 }
-
-.top-nav-bar-list li:hover ul li a:hover { background:#e9f3ff;  color: #0A345C;
-}
+.top-nav-bar-list li:hover ul li a:hover { background:#0A345C;  }
