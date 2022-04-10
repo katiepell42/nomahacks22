@@ -5,145 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./home.css">
 </head>
-<body style= "background-color:#BED0E4;"
+
 <body>
-
-     <br> 
-
-
-<!--Creating and setting the title of page-->
-</font>  
-<font size="7">  
-    <center>Meet Your Club Officers</center>
-    <br>    
-</font>   
-
-
-<!--Creating the club office columns-->
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-</head>
-<body>
-
-
-
-
-<!--start of the president page-->
-<!--Name of the president, description of 
-of the president's interests, linked in, and picture of 
-the president-->
-
-<div class="row">
-  <div class="column" style="background-color:#618DBD;">
-    <h2>Will Migdol</h2>
-    <p> This is Will Migdol, the President of Computer Science <br>
-        Club. He is a senior who previously attend Lake Tahoe <br>
-        Community College. He recently accepted a software position  <br>
-        at Code HS. <br> 
-    <ins 
-    <p>
-  
-    <br>
-    <a href="https://www.linkedin.com/in/willmigdol/">Linkedin</a>
-
-    <br>
-    <br>
-
-
-
-
-<!--start of the treasurer page-->
-<!--Name of the treasurer, description of 
-of the treasurer's interests, linked in, and picture of 
-the treasurer-->
-    <img src="https://miro.medium.com/max/1400/0*f8FPLukVNZjm-I22" alt="Simply Easy Learning" width="300" height="300">
-   
+  <div id="logo">
+    <img src="./assets/csc_logo_square.jpg" alt="Logo for Computer Science club">
   </div>
-  <div class="column" style="background-color:#618DBD; text-align:end;">
-    <h2>Diego Rivera</h2>
-    <p> This is Diego Rivera. He is the Treasurer of Computer <br>
-        Science Club. He has an Associates in Business <br>
-        Agriculture. He previously attended the Santa Rosa  <br>
-        Junior College. 
+  
+  <div id="name">
+    <h1 id="big-name">Computer Science Club</h1><br>
+  </div>
+  
+  <div id="school">
+    <h2 id="small-name">Sonoma State University</h2>
+  </div>
+  
+  <div id="link-menu-list">
+    <ul id="link-list">
+        <li><a class="nav-link" href="./home.html">Home</a></li>
+        <br>
+        <li><a class="nav-link" href="./people.html"> About us</a></li>
+        <br>
+        <li><a class="nav-link" href="./calendar.html">Calendar</a></li>
+        <br>
+        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!--Creating and setting the title of page-->
+  <div id="people-intro">
+    <h1>Meet your club officers!</h1>
+  </div>
+
+
+<div id="people-bios">
+  <div id="officer-bios">
+    <div id="bio-president" class="officer-bio"> <!--start of the president page-->
+      <h2 class="officer-name">Will Migdol</h2>
+      <h3 class="officer-title">President</h3>
+      <img class="bio-photo" src="./assets/will.png" alt="Photo of CS club president">
+      <p> This is Will Migdol, the President of Computer Science <br>
+          Club. He is a senior who previously attend Lake Tahoe <br>
+          Community College. He recently accepted a software position  <br>
+          at Code HS. <br>
+      </p>
+      <a href="https://www.linkedin.com/in/willmigdol/">Linkedin</a>
+    </div>
+
+    <div id="bio-treasurer" class="officer-bio"> <!--start of the treasurer page-->
+      <h2 class="officer-name">Diego Rivera</h2>
+      <h3 class="officer-title">Treasurer</h3>
+      <img class="bio-photo" src= "./assets/diego.jpeg " alt="Picture of CS Club treasurer">
+      <p> This is Diego Rivera. He is the Treasurer of Computer <br>
+          Science Club. He has an Associates in Business <br>
+          Agriculture. He previously attended the Santa Rosa  <br>
+          Junior College. 
+      </p>
+      <a href="https://www.linkedin.com/in/diego-rivera-4a82451aa/">Linkedin</a>
+    </div>
+  </div>
+ 
+  <div id= "advisor-bio", class="column">
+    <h2>Mark Gondree</h2>
+    <h3>Faculty advisor</h3>
+    <p> Professor Gondree is the advisor for Sonoma State's <br>
+      Computer Science Club.
     </p>
   
-    <a href="https://www.linkedin.com/in/diego-rivera-4a82451aa/">Linkedin</a> <br>
-    <br>
-
-    <img src="https://media-exp1.licdn.com/dms/image/C5603AQFE208XTg6qJw/profile-displayphoto-shrink_800_800/0/1644123136347?e=1654732800&v=beta&t=6FXJvUtl8FHJBqwDBQ5UCzBX50f5-nAO5oAMY91MZRc" alt="Simply Easy Learning" width="300" height="300">
+    <a href="https://www.gondree.com/all.html">Dr. Gondree's Website</a>
+    <img class="bio-photo" src="./assets/gondree.jpeg" alt="Simply Easy Learning">
   </div>
 </div>
-
-
-
-
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
-
-
-<!--start of the Advisor's page-->
-<!--Name of the Advisor, description of 
-of the Advisor's interests, linked in, and picture of 
-the Advisor-->
-
-  
-</div>
-<br>
-<br>
-<br>
-<div id= "advisor", class="column" style="background-color:transparent; text-align: center; width: 100%;">
-  <h2>Mark Gondree</h2>
-  <p> Professor Gondree is the advisor for Sonoma State's <br>
-    Computer Science Club. He received his Master's degree in <br>
-    Computer Science from Case Western Reserve University, and his <br>
-    PhD 
-  </p>
- 
-  <a href="https://www.gondree.com/all.html">Dr. Gondree's Website</a> <br>
-  <br>
-
-  <img src="https://media-exp1.licdn.com/dms/image/C5603AQHy3A7makK19Q/profile-displayphoto-shrink_800_800/0/1551200437525?e=1654732800&v=beta&t=6ytwv9mvZK755-7EpJueY_V6Ho4-Ya_epmlxQjvORKI" alt="Simply Easy Learning" width="300" height="300">
-</div>
-</div>
-
-
-
-
-    
-    <!--Pictures of the people
-        pictures of the people
-        text box for each name (big)
-        position text (big)
-        bio text (paragraph style)
-        sonoma state address
-        names of advisors (gondree)
-        resumes?
-
-
-
-       Specifics: what each person does, etc. Also talk about what 
-        the person wants to do with their computer science degree. Any current jobs or internship positions-->
-
 
 
 </body>

@@ -7,10 +7,11 @@ body {
 div {
     display: flex;
     margin: auto;
-    width: 60%;
+    /* width: 60%; */
     text-align: center;
     justify-content: center;
 }
+
 
 #big-name {
     margin-bottom: 0;
@@ -41,3 +42,39 @@ div {
     font-weight: bold;
 }
 
+#people-intro {
+    width: 100%;
+    display: block;
+}
+
+#people-bios {
+    width: 100%;
+    display: block;
+}
+
+#officer-bios {
+    width: 80%;
+    display:block;
+    background-color: #e9f3ff
+}
+
+.officer-bio {
+    background-color: #467FB6;
+    display: block;
+    padding-top: 2vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+.officer-bio p {
+    font-weight: bold;
+}
+
+.officer-name, .officer-title {
+    color: #e9f3ff
+}
+
+.bio-photo {
+    height: 10vw;
+    width: auto;
+}
