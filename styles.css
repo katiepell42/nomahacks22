@@ -189,7 +189,9 @@ li span {
 }
 
 
-
+.underline-small-name{
+    text-decoration:underline;
+}
 
 #calendar {
     padding-top: 2vh;
