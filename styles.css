@@ -1,91 +1,144 @@
-
-/* CSSTerm.com Horizontal Easy DropDown CSS menu */
-
 body {
+    color: #0A345C;
+    background-color: #e9f3ff;
     font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
-	background-color: #e9f3ff;
+    overflow-x: hidden;
 }
 
-#top-nav-bar {
-	margin: 0;
-}
-.top-nav-bar-list {
-	background:#0A345C;
-	padding:0;
-	margin:0;
-	list-style-type:none;
-	height: 20vh;
-}
-.top-nav-bar-list li { float:left;
-height: 80px; }
-
-.top-nav-bar-list li a {
-	padding:12px 20px;
-	display:block;
-	color:#e9f3ff;
-	text-decoration:none;
-	border: none;
-	line-height: 6vh;
-}
-.top-nav-bar-list li:hover {
-	position:relative;
-    /* background: #467FB6; */
-    /* color: green; */
+div {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
 }
 
-.nav-link:hover {
-	background-color: #467FB6;
+
+#name, #school {
+    display: block;
 }
 
-/* Submenu */
-.top-nav-bar-list ul {
-	position:absolute;
-	/* top: 10vh; */
-	left:-9999px;
-	top:-9999px;
-	list-style-type:none;
-	background: #0A345C;
+#school {
+    height: 10vh;
 }
 
-.top-nav-bar-list li:hover ul {
-	left:0px;
-	top:38px;
-	background:#0A345C;
-	padding:0px;
+#big-name, #small-name {
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
 }
 
-.top-nav-bar-list li:hover ul li a {
-	/* padding:10px; */
-	display:block;
-	width:168px;
-	text-indent:15px;
-	background-color:#0A345C;
+#logo img {
+    height: 20vh;
 }
 
-.top-nav-bar-list li:hover ul li a:hover { background:#e9f3ff;  color: #0A345C; margin-bottom: 0; margin-top: 0;border: #0A345C;
+#link-menu-list {
+    background-color: #0A345C;
+    height: 10vh;
+    vertical-align: center;
+    overflow: visible;
+    border-radius: 5px;
 }
 
-img {
-	justify-content: center;
-}
+/* ul {
+    display: auto;
+} */
+
 
 
 .nav-link {
-	padding-top: 40px;
+    border-radius: 5px;
+    color: #e9f3ff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 7vh;
 }
 
-#logo{
-	height: 20vh;
-	margin: auto;
-    margin-top: 0.5vh;
-	margin-left: 0.5vh;
+
+
+#people-bios {
+    width: 100%;
+    display: block;
 }
 
-#name {
-	color: #e9f3ff;
-	padding: .5vh;
-	/* margin-left: 10vw; */
-	margin-right: 10vw;
-	/* width: 3vw; */
+#people-bios {
+    width: 80%;
+    display:block;
+}
+
+#officer-bios {
+    display:block;
+    width: 80%;
+}
+.officer-bio {
+    background-color: #467FB6;
+    display: block;
+    padding-top: 2vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+}
+
+.officer-bio p {
+    font-weight: bold;
+}
+
+.officer-name, .officer-title, #advisor-name, #advisor-title {
+    color: #e9f3ff
+}
+
+.bio-photo {
+    height: 10vw;
+    width: auto;
+    border-radius: 50%;
+    min-height: 106px;
+    min-width: 107px;
+}
+
+#advisor-bio {
+    width: 80%;
+    background-color: #0A345C;
+    display: block;
+    padding-top: 2vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+}
+
+#advisor-bio p {
+    font-weight: bold;
+    color: #467FB6
+}
+
+.outside-link {
+    color: #e9f3ff;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+#footer-link-list {
+    position: relative;
+    bottom: 0;
+    width: 98vw;
+    background-color: #0A345C;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    border-radius: 5px;
+}
+
+#calendar {
+    padding-top: 2vh;
+    border-width: 0;
+    width: "800";
+    height: "600";
+}
+
+.intro-text {
+    width: 100%;
+    display: block;
+}
+
+.placeholder-content {
+    height: 50vh;
 }
