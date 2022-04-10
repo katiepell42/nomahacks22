@@ -18,14 +18,6 @@ div {
 }
 
 
-/* #name, #school {
-    display: block;
-} */
-
-/* #school {
-    height: 10vh;
-} */
-
 .big-name, .small-name {
     margin-top: 0.1vh;
     margin-bottom: 0.1vh;
@@ -34,12 +26,30 @@ div {
 
  #insert-events ul li
 {
-    text-align: left
+    text-align: left;
+    /* width: 15vw; */
+    align-text: 100%;
 } 
+
+#insert-events {
+    display:block;
+}
 
 #insert-events ul
 {
    list-style-type: "\1f499";
+   width: 20%;
+   margin: auto;
+}
+
+#insert-events div {
+    display: block;
+    justify-content: center;
+}
+
+li span {
+    position: relative;
+    left: 10px;
 }
 
 
