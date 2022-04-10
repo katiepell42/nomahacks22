@@ -37,6 +37,11 @@ div {
     text-align: left
 } 
 
+#insert-events ul
+{
+   list-style-type: "\1f499";
+}
+
 
 #logo img {
     height: 20vh;
