@@ -7,7 +7,6 @@ body {
 div {
     display: flex;
     margin: auto;
-    /* width: 60%; */
     text-align: center;
     justify-content: center;
 }
@@ -18,7 +17,7 @@ div {
 }
 
 #logo img {
-    height: 10vh;
+    height: 20vh;
 }
 
 #link-list {
@@ -52,25 +51,29 @@ div {
     display: block;
 }
 
-#officer-bios {
+#people-bios {
     width: 80%;
     display:block;
-    background-color: #e9f3ff
 }
 
+#officer-bios {
+    display:block;
+    width: 80%;
+}
 .officer-bio {
     background-color: #467FB6;
     display: block;
     padding-top: 2vh;
     border-radius: 10px;
     margin-bottom: 2vh;
+    padding-bottom: 2vh;
 }
 
 .officer-bio p {
     font-weight: bold;
 }
 
-.officer-name, .officer-title {
+.officer-name, .officer-title, #advisor-name, #advisor-title {
     color: #e9f3ff
 }
 
@@ -78,3 +81,25 @@ div {
     height: 10vw;
     width: auto;
 }
+
+#advisor-bio {
+    width: 80%;
+    background-color: #0A345C;
+    display: block;
+    padding-top: 2vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+}
+
+#advisor-bio p {
+    font-weight: bold;
+    color: #467FB6
+}
+
+.outside-link {
+    color: #e9f3ff;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
