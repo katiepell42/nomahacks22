@@ -12,6 +12,10 @@ div {
     justify-content: center;
 }
 
+#insert-events div.small-name {
+    text-decoration: underline;
+}
+
 #welcome-header div {
     background-color: #467FB6;
     display: block;
@@ -26,9 +30,9 @@ div {
 
  #insert-events ul li
 {
-    text-align: left;
-    /* width: 15vw; */
-    align-text: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #467FB6;
 } 
 
 #insert-events {
@@ -37,15 +41,18 @@ div {
 
 #insert-events ul
 {
-   list-style-type: "\1f499";
-   width: 20%;
+   list-style-type: none;
+   width: 50%;
    margin: auto;
+   padding: 0;
 }
 
 #insert-events div {
     display: block;
     justify-content: center;
 }
+
+
 
 li span {
     position: relative;
