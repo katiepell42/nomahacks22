@@ -7,17 +7,21 @@ body {
 div {
     display: flex;
     margin: auto;
-    width: 60%;
     text-align: center;
     justify-content: center;
 }
+
 
 #big-name {
     margin-bottom: 0;
 }
 
+#big-name, #small-name {
+    height: 15px;
+}
+
 #logo img {
-    height: 10vh;
+    height: 20vh;
 }
 
 #link-list {
@@ -26,18 +30,118 @@ div {
     display: flex;
 }
 
+#link-menu-list {
+    width: 100%;
+    /* background-color: #0A345C; */
+}
+
 #link-list li {
     height: 100%;
     background-color: #0A345C;
     width: 30vw;
+    padding-top: 20px;
+}
+
+#footer-link-list li {
+    background-color: transparent;
 }
 
 .nav-link {
-    line-height: 10vh;
+    /* line-height: 10vh; */
     /* background-color: #0A345C; */
+    padding-top: 40px;
     border-radius: 5px;
     color: #e9f3ff;
     text-decoration: none;
     font-weight: bold;
 }
 
+
+
+#people-bios {
+    width: 100%;
+    display: block;
+}
+
+#people-bios {
+    width: 80%;
+    display:block;
+}
+
+#officer-bios {
+    display:block;
+    width: 80%;
+}
+.officer-bio {
+    background-color: #467FB6;
+    display: block;
+    padding-top: 2vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+}
+
+.officer-bio p {
+    font-weight: bold;
+}
+
+.officer-name, .officer-title, #advisor-name, #advisor-title {
+    color: #e9f3ff
+}
+
+.bio-photo {
+    height: 10vw;
+    width: auto;
+    border-radius: 50%;
+}
+
+#advisor-bio {
+    width: 80%;
+    background-color: #0A345C;
+    display: block;
+    padding-top: 2vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+}
+
+#advisor-bio p {
+    font-weight: bold;
+    color: #467FB6
+}
+
+.outside-link {
+    color: #e9f3ff;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+#footer-link-list {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #0A345C;
+    /* display: block; */
+}
+
+#footer-link-list li {
+    height: 100%;
+    width: 30vw;
+}
+/* <!-- style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"> --> */
+#calendar {
+    padding-top: 2vh;
+    border-width: 0;
+    width: "800";
+    height: "600";
+}
+
+.intro-text {
+    width: 100%;
+    display: block;
+}
+
+/* #people-intro {
+    width: 100%;
+    display: block;
+} */
