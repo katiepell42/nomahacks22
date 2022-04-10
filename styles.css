@@ -12,16 +12,21 @@ div {
     justify-content: center;
 }
 
-
-#name, #school {
+#welcome-header div {
+    background-color: #467FB6;
     display: block;
 }
 
-#school {
-    height: 10vh;
-}
 
-#big-name, #small-name {
+/* #name, #school {
+    display: block;
+} */
+
+/* #school {
+    height: 10vh;
+} */
+
+.big-name, .small-name {
     margin-top: 0.1vh;
     margin-bottom: 0.1vh;
 }
@@ -51,21 +56,16 @@ div {
     background-color: #467FB6;
 }
 
-
 #people-bios {
     width: 100%;
     display: block;
 }
 
-#people-bios {
+#officer-bios {
     width: 80%;
-    display:block;
+    display: block;
 }
 
-#officer-bios {
-    display:block;
-    width: 80%;
-}
 .officer-bio {
     background-color: #467FB6;
     display: block;
@@ -124,6 +124,10 @@ div {
     border-radius: 5px;
 }
 
+#footer-link-list div {
+    display: block;
+}
+
 #calendar {
     padding-top: 2vh;
     border-width: 0;
@@ -137,5 +141,91 @@ div {
 }
 
 .placeholder-content {
-    height: 50vh;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-color: #467FB6;
+    border-radius: 5px;
+    border-style:solid;
+    border-width: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: block;
+}
+
+#home-content .big-name {
+    margin-top: 2vh;
+}
+
+#index-content div {
+    width: 100%;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+#index-content div p{
+    margin-bottom: 2vh;
+}
+#index-content div h2.small-name {
+    margin-top: 2vw;
+}
+
+#people-intro.big-name, #people-bios {
+    background-color: #e9f3ff;
+}
+
+#contact-content div a {
+    line-height: 10hv;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e9f3ff;
+    font-size: biggest;
+    /* background-color: #0A345C; */
+    /* padding: 0.5vh;
+    margin: 0.5vh; */
+    border-radius: 5px;
+}
+
+#contact-content div {
+    background-color: #0A345C;
+    margin: 5vh;
+    /* height: 10vh; */
+    justify-content: center;
+    /* height:  */
+    vertical-align: center;
+    border-radius: 5px;
+}
+
+div div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bottom-links {
+    padding: 0;
+}
+
+.scroll-link {
+    color: #467FB6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: 1px solid orange;
+    font-size: 1.6rem;
+    width: 50vw;
+    margin: auto;
+    animation: typing 1s forwards;
+    /* animation: typing 1s steps(20, end) forwards; */
+}
+
+#type {
+    display: inline-block;
 }
