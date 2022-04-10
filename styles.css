@@ -21,11 +21,23 @@ div {
     display: block;
 }
 
+#calendar-name {
+    text-decoration: underline;
+    width: 25%;
+    margin: auto;
+}
+
 
 .big-name, .small-name {
     margin-top: 0.1vh;
     margin-bottom: 0.1vh;
 }
+
+/* .small-name {
+    text-decoration: underline;
+} */
+
+
 
 
  #insert-events ul li
