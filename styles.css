@@ -38,12 +38,6 @@ div {
     border-radius: 5px;
 }
 
-/* ul {
-    display: auto;
-} */
-
-
-
 .nav-link {
     border-radius: 5px;
     color: #e9f3ff;
@@ -53,6 +47,9 @@ div {
     line-height: 7vh;
 }
 
+.nav-link:hover {
+    background-color: #467FB6;
+}
 
 
 #people-bios {
