@@ -12,48 +12,43 @@ div {
 }
 
 
-#big-name {
-    margin-bottom: 0;
+#name, #school {
+    display: block;
+}
+
+#school {
+    height: 10vh;
 }
 
 #big-name, #small-name {
-    height: 15px;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
 }
 
 #logo img {
     height: 20vh;
 }
 
-#link-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-}
-
 #link-menu-list {
-    width: 100%;
-    /* background-color: #0A345C; */
-}
-
-#link-list li {
-    height: 100%;
     background-color: #0A345C;
-    width: 30vw;
-    padding-top: 20px;
+    height: 10vh;
+    vertical-align: center;
+    overflow: visible;
 }
 
-#footer-link-list li {
-    background-color: transparent;
-}
+/* ul {
+    display: auto;
+} */
+
+
 
 .nav-link {
-    /* line-height: 10vh; */
-    /* background-color: #0A345C; */
-    padding-top: 40px;
     border-radius: 5px;
     color: #e9f3ff;
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
+    line-height: 7vh;
 }
 
 
@@ -93,6 +88,8 @@ div {
     height: 10vw;
     width: auto;
     border-radius: 50%;
+    min-height: 106px;
+    min-width: 107px;
 }
 
 #advisor-bio {
@@ -117,18 +114,16 @@ div {
 }
 
 #footer-link-list {
-    position: absolute;
+    position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #0A345C;
-    /* display: block; */
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
 }
 
-#footer-link-list li {
-    height: 100%;
-    width: 30vw;
-}
-/* <!-- style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"> --> */
 #calendar {
     padding-top: 2vh;
     border-width: 0;
@@ -141,7 +136,6 @@ div {
     display: block;
 }
 
-/* #people-intro {
-    width: 100%;
-    display: block;
-} */
+.placeholder-content {
+    height: 50vh;
+}
