@@ -41,7 +41,7 @@ div {
 
 #link-menu-list {
     background-color: #0A345C;
-    height: 10vh;
+    height: 15vh;
     vertical-align: center;
     overflow: visible;
     border-radius: 5px;
@@ -50,7 +50,21 @@ div {
 .nav-link {
     border-radius: 5px;
     color: #e9f3ff;
-    padding: 10px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 7vh;
+}
+.foot-link {
+    border-radius: 5px;
+    color: #e9f3ff;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
     text-decoration: none;
     font-weight: bold;
     line-height: 7vh;
@@ -65,8 +79,21 @@ div {
     display: block;
 }
 
+
+.officer-bios:hover {
+    width: 83%;
+    position: relative;
+    top: -10px;
+}
+
+#people-bios div div:hover { /* advisor only */
+    width: 83%;
+    position: relative;
+    top: -10px;
+}
+
 #officer-bios {
-    width: 80%;
+    width: 100%;
     display: block;
 }
 
@@ -77,6 +104,7 @@ div {
     border-radius: 10px;
     margin-bottom: 2vh;
     padding-bottom: 2vh;
+    width: 80%;
 }
 
 .officer-bio p {
@@ -105,6 +133,12 @@ div {
     padding-bottom: 2vh;
 }
 
+#advisor-bio:hover {
+    width: 83%;
+    position: relative;
+    top: -10px;
+}
+
 #advisor-bio p {
     font-weight: bold;
     color: #467FB6
@@ -121,7 +155,7 @@ div {
     bottom: 0;
     width: 98vw;
     background-color: #0A345C;
-    height: 12vh;
+    height: 15vh;
     text-align: center;
     justify-content: center;
     margin: 0;
@@ -131,6 +165,9 @@ div {
 #footer-link-list div {
     display: block;
 }
+
+
+
 
 #calendar {
     padding-top: 2vh;
