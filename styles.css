@@ -31,6 +31,13 @@ div {
     margin-bottom: 0.1vh;
 }
 
+
+ #insert-events ul li
+{
+    text-align: left
+} 
+
+
 #logo img {
     height: 20vh;
 }
