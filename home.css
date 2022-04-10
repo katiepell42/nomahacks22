@@ -16,6 +16,10 @@ div {
     margin-bottom: 0;
 }
 
+#big-name, #small-name {
+    height: 15px;
+}
+
 #logo img {
     height: 20vh;
 }
@@ -26,25 +30,33 @@ div {
     display: flex;
 }
 
+#link-menu-list {
+    width: 100%;
+    /* background-color: #0A345C; */
+}
+
 #link-list li {
     height: 100%;
     background-color: #0A345C;
     width: 30vw;
+    padding-top: 20px;
+}
+
+#footer-link-list li {
+    background-color: transparent;
 }
 
 .nav-link {
-    line-height: 10vh;
+    /* line-height: 10vh; */
     /* background-color: #0A345C; */
+    padding-top: 40px;
     border-radius: 5px;
     color: #e9f3ff;
     text-decoration: none;
     font-weight: bold;
 }
 
-#people-intro {
-    width: 100%;
-    display: block;
-}
+
 
 #people-bios {
     width: 100%;
@@ -80,6 +92,7 @@ div {
 .bio-photo {
     height: 10vw;
     width: auto;
+    border-radius: 50%;
 }
 
 #advisor-bio {
@@ -103,3 +116,32 @@ div {
     /* font-weight: bold; */
 }
 
+#footer-link-list {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #0A345C;
+    /* display: block; */
+}
+
+#footer-link-list li {
+    height: 100%;
+    width: 30vw;
+}
+/* <!-- style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"> --> */
+#calendar {
+    padding-top: 2vh;
+    border-width: 0;
+    width: "800";
+    height: "600";
+}
+
+.intro-text {
+    width: 100%;
+    display: block;
+}
+
+/* #people-intro {
+    width: 100%;
+    display: block;
+} */
